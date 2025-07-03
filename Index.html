@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News + Monetag Ad</title>
+  <meta charset="UTF-8">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .ad {
+      margin-top: 20px;
+    }
+    a.ad-link {
+      display: inline-block;
+      background: #007bff;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔥 Today’s News</h2>
+
+  <div class="card">📢 News Item 1: Market hits all-time high</div>
+  <div class="card">📰 News Item 2: Tech companies booming</div>
+  <div class="card">🌍 News Item 3: Climate update released</div>
+
+  <div class="ad">
+    <p>Sponsored:</p>
+    <a class="ad-link" href="https://your-monetag-link.com" target="_blank">👉 Claim Your Reward</a>
+  </div>
+
+  <script>
+    const tg = window.Telegram.WebApp;
+    tg.expand();
+  </script>
+</body>
+</html>
